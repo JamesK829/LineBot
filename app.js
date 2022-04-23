@@ -13,6 +13,8 @@ const bot = linebot({
 
 const linebotParser = bot.parser();
 
+
+
 bot.on('message', function (event) {
  console.log(event);
 
